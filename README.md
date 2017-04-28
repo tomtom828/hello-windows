@@ -27,7 +27,7 @@ This is primarily for setting up a dev environment for Java, MySQL, MariaDB.
 
 
 ### Maven
-  0. Navigate to [https://spring.io/guides/gs/intellij-idea/](https://spring.io/guides/gs/intellij-idea/) to learn to install and intialize Maven.
+  0. Navigate to [https://spring.io/guides/gs/maven/](https://spring.io/guides/gs/maven/) to learn to install and initialize Maven.
   1. After downloading the .zip file, I saved it at `C:\Program Files\Apache\apache-maven-3.5.0`.
   2. Then, I needed to set the path and envirnomental variables. You can refer to [this](https://www.mkyong.com/maven/how-to-install-maven-in-windows/).
   3. After the path is set, run `mvn -version` in Git Bash to verify the installation.
