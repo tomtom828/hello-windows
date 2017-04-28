@@ -82,3 +82,4 @@ This is primarily for setting up a dev environment for Java, MySQL, MariaDB.
   0. Navigate to [https://spring.io/guides/gs/intellij-idea/](https://spring.io/guides/gs/intellij-idea/) to learn to set up Spring MVC with IntelliJ IDEA.
       - Assuming you already installed Maven from above, no additional downloading/setup will be needed.
   1. Test your setup by making a [Hello World Webpage](https://spring.io/guides/gs/serving-web-content/).
+      - Now that you are set up, a great series for learning Spring MVC can be found [here](https://www.gontu.org/spring-mvc-tutorials/).
