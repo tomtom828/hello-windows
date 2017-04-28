@@ -68,4 +68,16 @@ This is primarily for setting up a dev environment for Java, MySQL, MariaDB.
 
 
 ### MariaDB
-  0. Navigate to [](https://mariadb.com/kb/en/mariadb/installing-mariadb-msi-packages-on-windows/)
+  0. Navigate to this [webpage](https://mariadb.com/kb/en/mariadb/installing-mariadb-alongside-mysql/) to learn how to set up MariaDB inaddition to MySQL
+  1. Download the MariaDB installer for Windows from [https://mariadb.com/downloads](https://mariadb.com/downloads)
+  2. Fire up the .exe file and proceed with all default option except that for TCP Port.
+    - Change the TCP Port to 3307 (note that MySQL is already using 3306)
+    - Again, you can use "root" for the username and password.
+  3. After installation, you can add `C:\Program Files\MariaDB 10.1\bin` to your Path variable (optional).
+    - Note that you can choose either MariaDB or MySQL for this. If you want to use MariaDB, you have to remove the `C:\Program Files\MySQL\MySQL Server 5.7\bin` you made before.
+    - From Command Line (Windows), run `mysql -u root -p` and enter the password.
+  4. Now you can add the MariaDB connection to MySQL Workbench.
+    - Open MySQL Workbench and click the "+" icon above your localhost connection
+    - Add in a Connection Name (i.e. "Local Instance MariaDB")
+    - Change the Port to 3307
+    - Click OK to finsh. And then connect into your new localhost instance for MariaDB.
