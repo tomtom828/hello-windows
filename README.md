@@ -9,7 +9,11 @@ This is primarily for setting up a dev environment for Java, MySQL, MariaDB.
   2. Open Git Bash after the installation is complete. I also recommend pinning it to the taskbar.
   3. Set up your github credentials using:
     `git config --global user.name "Your Name" && git config --global user.email "you@example.com"`
-  4. When pushing your first commit, you will be asked to enter your github credentials.	
+  4. When pushing your first commit, you will be asked to enter your github credentials.
+
+
+### Sublime
+  0. Navigate to [https://www.sublimetext.com/3](https://www.sublimetext.com/3) to download Sublime Text 3
 
 
 ### Java
@@ -31,6 +35,10 @@ This is primarily for setting up a dev environment for Java, MySQL, MariaDB.
   1. After downloading the .zip file, I saved it at `C:\Program Files\Apache\apache-maven-3.5.0`.
   2. Then, I needed to set the path and environmental variables. You can refer to [this guide](https://www.mkyong.com/maven/how-to-install-maven-in-windows/).
   3. After the path is set, run `mvn -version` in Git Bash to verify the installation.
+  4. Below are some (optional steps) to run the Java .class and .jar files created in the how-to for the webpage above:
+    - After running `mvn compile` and `mvn package`, in the `initial` folder of the project...
+      - Run the .class file using `java -cp target/classes hello.HelloWorld`
+      - Run the .jar file using `java -cp target/gs-maven-0.1.0.jar package.HelloWorld` 
 
 
 ### Spring MVC
