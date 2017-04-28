@@ -12,7 +12,7 @@ This is primarily for setting up a dev environment for Java, MySQL, MariaDB.
   4. When pushing your first commit, you will be asked to enter your github credentials.
 
 
-### Sublime
+### Sublime Text
   0. Navigate to [https://www.sublimetext.com/3](https://www.sublimetext.com/3) to download Sublime Text 3
 
 
@@ -43,3 +43,29 @@ This is primarily for setting up a dev environment for Java, MySQL, MariaDB.
 
 ### Spring MVC
   0. Navigate to [https://spring.io/guides/gs/intellij-idea/](https://spring.io/guides/gs/intellij-idea/) to learn to set up Spring MVC with IntelliJ IDEA.
+
+
+### MySQL
+  0. Navigate to this [tutorial](https://corlewsolutions.com/articles/article-21-how-to-install-mysql-server-5-6-on-windows-7-development-machine) for alot of information.
+  1. Below are the steps I took to get set-up:
+    - Download the MySQL Installer for Windows at [https://dev.mysql.com/downloads/installer/](https://dev.mysql.com/downloads/installer/).
+    - Fire up the .exe file and select the Developer Default option. Note that everything (like Python or Visual Studio) may be excecuted. That is ok. You can always add those connectors later (i.e. if you install Python or Visual Studio)
+    - You can click "Next" through the rest of the scenerios, leaving add default selections and adding a connection password.
+      - If only using a localhost connection on your laptop a username and password of "root" is fine.
+    - After installation, you can add `C:\Program Files\MySQL\MySQL Server 5.7\bin` to your Path variable.
+  2. You can test that it worked in 2 ways:
+    - From Command Line (Windows), run `mysql -u root -p` and enter the password.
+    - From Git Bash, run `mysql -u root -proot` (assuming your password was "root").
+      - As an aside, I noticed mysql commands work better in the Windows Command Line.
+
+
+### MySQL Workbench
+  0. Navigate to [https://dev.mysql.com/downloads/workbench/](https://dev.mysql.com/downloads/workbench/) for the download.
+  1. Note that you may need to download the [prerequisites](https://dev.mysql.com/resources/wb52_prerequisites.html) for Windows.
+  2. Once you're sure you have the prerequisites, fire up the .exe file
+  3. Leave all the default setting to complete the installation.
+  4. Open MySQL Workbench at the end of the installation and connect to the "localhost" connection with your password from the MySQL installation (above).
+
+
+### MariaDB
+  0. Navigate to [](https://mariadb.com/kb/en/mariadb/installing-mariadb-msi-packages-on-windows/)
