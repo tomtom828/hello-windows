@@ -40,11 +40,6 @@ This is primarily for setting up a dev environment for Java, MySQL, MariaDB.
         - Run the .class file using `java -cp target/classes hello.HelloWorld`
         - Run the .jar file using `java -cp target/gs-maven-0.1.0.jar package.HelloWorld` 
 
-
-### Spring MVC
-  0. Navigate to [https://spring.io/guides/gs/intellij-idea/](https://spring.io/guides/gs/intellij-idea/) to learn to set up Spring MVC with IntelliJ IDEA.
-
-
 ### MySQL
   0. Navigate to this [tutorial](https://corlewsolutions.com/articles/article-21-how-to-install-mysql-server-5-6-on-windows-7-development-machine) for alot of information.
   1. Below are the steps I took to get set-up:
@@ -68,7 +63,7 @@ This is primarily for setting up a dev environment for Java, MySQL, MariaDB.
 
 
 ### MariaDB
-  0. Navigate to this [webpage](https://mariadb.com/kb/en/mariadb/installing-mariadb-alongside-mysql/) to learn how to set up MariaDB inaddition to MySQL
+  0. Navigate to this [webpage](https://mariadb.com/kb/en/mariadb/installing-mariadb-alongside-mysql/) to learn how to set up MariaDB in addition to MySQL
   1. Download the MariaDB installer for Windows from [https://mariadb.com/downloads](https://mariadb.com/downloads)
   2. Fire up the .exe file and proceed with all default option except that for TCP Port.
       - Change the TCP Port to 3307 (note that MySQL is already using 3306)
@@ -81,3 +76,9 @@ This is primarily for setting up a dev environment for Java, MySQL, MariaDB.
       - Add in a Connection Name (i.e. "Local Instance MariaDB")
       - Change the Port to 3307
       - Click OK to finsh. And then connect into your new localhost instance for MariaDB.
+
+
+### Spring MVC
+  0. Navigate to [https://spring.io/guides/gs/intellij-idea/](https://spring.io/guides/gs/intellij-idea/) to learn to set up Spring MVC with IntelliJ IDEA.
+      - Assuming you already installed Maven from above, no additional downloading/setup will be needed.
+  1. Test your setup by making a [Hello World Webpage](https://spring.io/guides/gs/serving-web-content/).
