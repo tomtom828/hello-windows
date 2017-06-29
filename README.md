@@ -1,7 +1,7 @@
 # Hello Windows
 Notes self on creating a developer environment for myself in Windows 10.
 
-This is primarily for setting up a dev environment for Java, MySQL, MariaDB.
+This is primarily for setting up a dev environment for Python, NodeJS, Java, MySQL, MariaDB.
 
 ### git
   0. Navigate to [https://git-scm.com/download/win](https://git-scm.com/download/win) for the Windows version of Git.
@@ -83,3 +83,21 @@ This is primarily for setting up a dev environment for Java, MySQL, MariaDB.
       - Assuming you already installed Maven from above, no additional downloading/setup will be needed.
   1. Test your setup by making a [Hello World Webpage](https://spring.io/guides/gs/serving-web-content/).
       - Now that you are set up, a great series for learning Spring MVC can be found [here](https://www.gontu.org/spring-mvc-tutorials/).
+
+
+
+### Python 2.7
+  0. Navigate to [this repo](https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation) for great instructions.
+      - Note that I used the "Windows x86-64 MSI installer" for my 64 bit PC
+      - Be sure to set Python to your path variables as well
+  1. Run `python -v` from the command line (not Git Bash) to see the installed Python version
+  2. Run `python -i` in GitBash to check if the Python Interpreter is working in Git Bash as well
+  3. Press `Ctrl D` to exit.
+
+
+
+### NodeJS
+  0. Navigate to https://nodejs.org/en
+  1. Click to download the latest stable (LTS version) of NodeJS
+  2. After installation, run `node` in GitBash (or command line) to test if it worked
+  3. Press `Ctrl C` to exit.
