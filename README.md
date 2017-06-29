@@ -90,9 +90,9 @@ This is primarily for setting up a dev environment for Python, NodeJS, Java, MyS
   0. Navigate to [this repo](https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation) for great instructions.
       - Note that I used the "Windows x86-64 MSI installer" for my 64 bit PC
       - Be sure to set Python to your path variables as well
-  1. Run `python -v` from the command line (not Git Bash) to see the installed Python version
-  2. Run `python -i` in GitBash to check if the Python Interpreter is working in Git Bash as well
-  3. Press `Ctrl D` to exit.
+  1. Run `python --version` from the command line (or GitBash) to see the installed Python version
+  2. Run `python -i` in GitBash to check if the Python Interpreter is working
+  3. Press `Ctrl C` to exit.
 
 
 
